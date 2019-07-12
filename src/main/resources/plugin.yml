@@ -1,0 +1,16 @@
+name: NemisysBroadcastCommand
+main: me.petterim1.nemisysbroadcast.Main
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+
+commands:
+  bcast:
+    description: Broadcast
+    usage: "/bcast"
+    permission: broadcast.command
+
+permissions:
+  broadcast.command:
+    description: "Allows user to use /bcast command"
+    default: op
